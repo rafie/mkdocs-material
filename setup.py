@@ -20,6 +20,7 @@
 
 import json
 from setuptools import setup, find_packages
+import io
 
 # Load package.json contents
 with open("package.json") as data:
